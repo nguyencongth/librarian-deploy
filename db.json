@@ -1,0 +1,292 @@
+{
+  "manager": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Self-help"
+    },
+    {
+      "id": 3,
+      "name": "History"
+    },
+    {
+      "id": 4,
+      "name": "Romance"
+    },
+    {
+      "id": 5,
+      "name": "Short Stories"
+    },
+    {
+      "name": "Tornado",
+      "id": 6
+    },
+    {
+      "name": "Bombasto",
+      "id": 7
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Angular Programming",
+      "quantity": 22,
+      "quantityBorrowed": 1,
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Javascript",
+      "quantity": 20,
+      "quantityBorrowed": 1,
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Book no name",
+      "quantity": 21,
+      "quantityBorrowed": 0,
+      "status": "available"
+    },
+    {
+      "categoryId": 1,
+      "name": "C Sharp",
+      "quantity": 9,
+      "quantityBorrowed": 1,
+      "status": "available",
+      "id": 6
+    },
+    {
+      "categoryId": 5,
+      "name": "abcd",
+      "quantity": 10,
+      "quantityBorrowed": 0,
+      "status": "available",
+      "id": 7
+    },
+    {
+      "categoryId": 5,
+      "name": "HiHi",
+      "quantity": 10,
+      "quantityBorrowed": 0,
+      "status": "available",
+      "id": 8
+    },
+    {
+      "categoryId": 1,
+      "name": "Typescript",
+      "quantity": 10,
+      "quantityBorrowed": 0,
+      "status": "available",
+      "id": 9
+    },
+    {
+      "name": "HTML",
+      "categoryId": 1,
+      "quantity": 12,
+      "quantityBorrowed": 0,
+      "status": "available",
+      "id": 10
+    },
+    {
+      "name": "Rabbit and Turtle",
+      "categoryId": 5,
+      "quantity": 0,
+      "quantityBorrowed": 1,
+      "status": "outOfStock",
+      "id": 11
+    },
+    {
+      "name": "C++ programming",
+      "categoryId": 1,
+      "quantity": 10,
+      "quantityBorrowed": 0,
+      "status": "available",
+      "id": 12
+    },
+    {
+      "name": "wwwwwww",
+      "categoryId": 7,
+      "quantity": 9,
+      "quantityBorrowed": 1,
+      "status": "available",
+      "id": 13
+    },
+    {
+      "name": "hhhhhh",
+      "categoryId": 3,
+      "quantity": 0,
+      "quantityBorrowed": 1,
+      "status": "outOfStock",
+      "id": 14
+    }
+  ],
+  "borrow": [
+    {
+      "borrowName": "No Name",
+      "bookId": 1,
+      "categoryId": 1,
+      "borrowDate": "5/1/2024",
+      "dueDate": "2024-01-05T02:58:05.677Z",
+      "status": "Returned",
+      "id": 1
+    },
+    {
+      "borrowName": "Alex",
+      "bookId": 6,
+      "categoryId": 1,
+      "borrowDate": "5/1/2024",
+      "dueDate": "2024-01-05T02:52:23.009Z",
+      "status": "Returned",
+      "id": 2
+    },
+    {
+      "borrowName": "Truong Van Tuan",
+      "bookId": 1,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T02:58:18.203Z",
+      "dueDate": "2024-01-05T03:00:48.836Z",
+      "status": "Returned",
+      "id": 4
+    },
+    {
+      "borrowName": "Toro",
+      "bookId": 6,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T03:15:18.654Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 5
+    },
+    {
+      "borrowName": "VVVVVVVVV",
+      "bookId": 2,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T03:16:19.550Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 6
+    },
+    {
+      "borrowName": "AAAAAAA",
+      "bookId": 10,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T09:10:48.554Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 7
+    },
+    {
+      "borrowName": "ggggggg",
+      "bookId": 1,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T09:27:37.345Z",
+      "dueDate": "2024-01-05T09:28:16.362Z",
+      "status": "Returned",
+      "id": 8
+    },
+    {
+      "borrowName": "vbvbbvbvb",
+      "bookId": 1,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T09:28:21.537Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 9
+    },
+    {
+      "borrowName": "bbbbaaaa",
+      "bookId": 2,
+      "categoryId": 1,
+      "borrowDate": "2024-01-05T09:29:55.327Z",
+      "dueDate": "2024-01-07T13:56:31.881Z",
+      "status": "Returned",
+      "id": 10
+    },
+    {
+      "borrowName": "rrrrrr",
+      "bookId": 11,
+      "categoryId": 5,
+      "borrowDate": "2024-01-07T07:27:18.324Z",
+      "dueDate": "2024-01-07T07:27:50.650Z",
+      "status": "Returned",
+      "id": 11
+    },
+    {
+      "borrowName": "thanh",
+      "bookId": 11,
+      "categoryId": 5,
+      "borrowDate": "2024-01-07T08:32:26.142Z",
+      "dueDate": "2024-01-07T13:57:04.167Z",
+      "status": "Returned",
+      "id": 12
+    },
+    {
+      "borrowName": "Cong Thanh",
+      "bookId": 11,
+      "categoryId": 5,
+      "borrowDate": "2024-01-07T13:58:44.310Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 13
+    },
+    {
+      "borrowName": "thanh",
+      "bookId": 14,
+      "categoryId": 3,
+      "borrowDate": "2024-01-08T07:06:28.174Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 15
+    },
+    {
+      "borrowName": "tuan",
+      "bookId": 13,
+      "categoryId": 7,
+      "borrowDate": "2024-01-08T08:03:26.797Z",
+      "dueDate": "2024-01-08T08:03:50.116Z",
+      "status": "Returned",
+      "id": 16
+    },
+    {
+      "borrowName": "thanh",
+      "bookId": 13,
+      "categoryId": 7,
+      "borrowDate": "2024-01-08T08:04:33.691Z",
+      "dueDate": "2024-01-08T08:04:50.025Z",
+      "status": "Returned",
+      "id": 17
+    },
+    {
+      "borrowName": "th",
+      "bookId": 13,
+      "categoryId": 7,
+      "borrowDate": "2024-01-09T01:53:31.453Z",
+      "dueDate": "",
+      "status": "Borrowing",
+      "id": 18
+    },
+    {
+      "borrowName": "thanh",
+      "bookId": 1,
+      "categoryId": 1,
+      "borrowDate": "2024-01-09T03:44:26.749Z",
+      "dueDate": "2024-01-09T03:45:02.642Z",
+      "status": "Returned",
+      "id": 19
+    }
+  ]
+}
