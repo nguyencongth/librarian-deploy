@@ -12,7 +12,7 @@ interface Manager {
 })
 export class AuthService {
   private LoggedIn = false;
-  private apiUrl = 'https://json-server-vercel-xi-ebon.vercel.app/';
+  private apiUrl = 'https://json-server-vercel-xi-ebon.vercel.app';
 
   constructor(private http: HttpClient) {
     this.LoggedIn == !!localStorage.getItem('loggedIn');
