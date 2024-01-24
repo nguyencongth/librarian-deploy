@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BookService {
-  private urlApi = 'https://my-json-server.typicode.com/nguyencongth/demo/books';
+  private urlApi = 'https://json-server-vercel-xi-ebon.vercel.app/books';
   constructor(private http: HttpClient) { }
 
   getBook(): Observable<any> {
