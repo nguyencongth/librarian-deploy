@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class BorrowService {
 
   constructor(private http: HttpClient) { }
-  private urlApi = 'https://my-json-server.typicode.com/nguyencongth/demo/borrow';
+  private urlApi = 'https://json-server-vercel-xi-ebon.vercel.app/borrow';
 
   getBorrow(): Observable<any> {
     return this.http.get(this.urlApi);
