@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class CategoriesService {
-  private urlApi = 'https://my-json-server.typicode.com/nguyencongth/demo/category';
+  private urlApi = 'https://json-server-vercel-xi-ebon.vercel.app/category';
 
   constructor(private http: HttpClient, private route: Router) { }
 
@@ -24,7 +24,7 @@ export class CategoriesService {
     return this.http.post<any>(`${this.urlApi}`, newCategory);
   }
   categoryHasBooks(categoryId: number): Observable<boolean> {
-    return this.http.get<any[]>(`https://my-json-server.typicode.com/nguyencongth/demo/books`).pipe(
+    return this.http.get<any[]>(`https://json-server-vercel-xi-ebon.vercel.app/books`).pipe(
       map((books: any[]) => {
         return books.some(book => book.categoryId === categoryId);
       })
